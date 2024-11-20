@@ -1,0 +1,19 @@
+{
+  "appId": "com.foldersync.app",
+  "productName": "Synchronisation Smartphone",
+  "directories": {
+    "output": "dist-electron"
+  },
+  "win": {
+    "target": ["portable"],
+    "icon": "build/icon.ico"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*"
+  ],
+  "asar": true,
+  "portable": {
+    "artifactName": "SyncSmartphone.exe"
+  }
+}
